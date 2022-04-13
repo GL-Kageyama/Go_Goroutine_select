@@ -1,6 +1,8 @@
 # Go Goroutine select
 
 ## select
+Syntax to realize value passing through channels from multiple goroutines.  
+Without using select, the state of waiting to receive a value would continue, but select allows pinpoint passing of the value from the target channel.  
 
 ## Code
 ```Go
